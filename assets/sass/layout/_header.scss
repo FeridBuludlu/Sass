@@ -1,0 +1,56 @@
+@import "./grid";
+
+.container{
+    @extend .flex_2;
+}
+.header_top{
+    border-bottom: 1px solid grey;
+}
+
+.header_left{
+    @extend.flex;
+
+    .mail_service{
+        border-right: 1px solid grey;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+.like{
+     a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;  
+    }
+    span{
+        font-size: 20px
+    }
+}
+.header_2{
+    @extend .flex;
+    padding: 40px;
+    @extend .flex_2;
+
+}
+.list ul li a{
+    list-style-type: none
+}
+
+.header_right{
+    @extend .flex;
+
+    .top_social{
+        border-right: 1px solid grey;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        a{
+            color: black;
+        }
+    }
+    .login a{
+        text-decoration: none;
+    }
+    
+}

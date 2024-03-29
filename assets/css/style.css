@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.login a {
+  color: black; }
+
+.flex, .header_left, .header_2, .header_right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center; }
+
+.flex_2, .container, .header_2 {
+  display: flex;
+  justify-content: space-around; }
+
+.header_top {
+  border-bottom: 1px solid grey; }
+
+.header_left .mail_service {
+  border-right: 1px solid grey;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+.like a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px; }
+
+.like span {
+  font-size: 20px; }
+
+.header_2 {
+  padding: 40px; }
+
+.list ul li a {
+  list-style-type: none; }
+
+.header_right .top_social {
+  border-right: 1px solid grey;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+  .header_right .top_social a {
+    color: black; }
+
+.header_right .login a {
+  text-decoration: none; }
