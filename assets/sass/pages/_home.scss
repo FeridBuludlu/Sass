@@ -1,0 +1,119 @@
+.single-banner {
+    position: relative;
+    img {
+        width: 100%;
+        display: block;
+        
+    }
+    .inner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: white;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #000000;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+.section5{
+    background-image: url('https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp');
+    background-size: cover; /* Ensure the background covers the element */
+    background-position: center; /* Center the background image */
+    min-height: 500px; /* Minimum height to ensure the element is visible */
+    margin: 20px;
+
+
+    
+
+    .deal{
+        text-align: center;
+        padding: 100px;
+
+        .span_all{
+            padding: 40px;
+            .first_span{
+                color: #E7AB3C;
+                font-weight: bold;
+                font-size: 25px;
+            }
+        }
+        a{
+            text-decoration: none;
+            border: 1px solid #E7AB3C;
+            background-color: #E7AB3C;
+            padding: 15px;
+            color: white;
+        }
+    }
+}
+
+.instagram-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .instagram {
+        flex-basis: calc(17% - 10px);
+        margin-bottom: 10px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
+
+.cards{
+    @extend .flex;
+    .card{
+        border: none;
+        .card-body{
+        
+            .tag{ 
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.blog{
+    padding: 40px;
+    h3{
+    text-align: center;
+    }
+}
+
+
+.benefit-items{
+    border: 1px solid #ebebeb;
+    margin-top: 45px;
+    .single-benefit{
+        padding-top: 30px;
+        padding-bottom: 25px;
+        padding-left: 55px;
+        padding-right: 55px;
+        border-right: 1px solid #F3F4F0;
+
+        .sb-icon{
+            float: left;
+            margin-right: 20px;
+        }
+        .sb-text{
+            h6{
+                color: #252525;
+                line-height: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            p{
+                margin-bottom: 0;
+                color: #252525;
+                line-height: 20px;
+            }
+        }
+    }
+}

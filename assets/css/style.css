@@ -5,7 +5,7 @@
 .login a {
   color: black; }
 
-.flex, .header_left, .header_2, .header_right {
+.flex, .header_left, .header_2, .section_list, .header_right, .cards {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -35,8 +35,25 @@
 .header_2 {
   padding: 40px; }
 
-.list ul li a {
-  list-style-type: none; }
+.section_list {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+  .section_list .list ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section_list .list ul li :hover {
+      background-color: #ff9900;
+      border: 1px solid #d3c9b9;
+      padding: 20px 40px; }
+    .section_list .list ul li a {
+      text-decoration: none;
+      color: white;
+      border: 1px solid #baad9a;
+      padding: 20px 40px;
+      transition: calc(0.4s); }
 
 .header_right .top_social {
   border-right: 1px solid grey;
@@ -48,3 +65,92 @@
 
 .header_right .login a {
   text-decoration: none; }
+
+#carouselExampleControls {
+  padding: 20px; }
+
+.single-banner {
+  position: relative; }
+  .single-banner img {
+    width: 100%;
+    display: block; }
+  .single-banner .inner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid white;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px; }
+
+.section5 {
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp");
+  background-size: cover;
+  /* Ensure the background covers the element */
+  background-position: center;
+  /* Center the background image */
+  min-height: 500px;
+  /* Minimum height to ensure the element is visible */
+  margin: 20px; }
+  .section5 .deal {
+    text-align: center;
+    padding: 100px; }
+    .section5 .deal .span_all {
+      padding: 40px; }
+      .section5 .deal .span_all .first_span {
+        color: #E7AB3C;
+        font-weight: bold;
+        font-size: 25px; }
+    .section5 .deal a {
+      text-decoration: none;
+      border: 1px solid #E7AB3C;
+      background-color: #E7AB3C;
+      padding: 15px;
+      color: white; }
+
+.instagram-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .instagram-gallery .instagram {
+    flex-basis: calc(17% - 10px);
+    margin-bottom: 10px; }
+    .instagram-gallery .instagram img {
+      width: 100%;
+      height: auto; }
+
+.cards .card {
+  border: none; }
+  .cards .card .card-body .tag {
+    display: flex;
+    justify-content: space-between; }
+
+.blog {
+  padding: 40px; }
+  .blog h3 {
+    text-align: center; }
+
+.benefit-items {
+  border: 1px solid #ebebeb;
+  margin-top: 45px; }
+  .benefit-items .single-benefit {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-right: 1px solid #F3F4F0; }
+    .benefit-items .single-benefit .sb-icon {
+      float: left;
+      margin-right: 20px; }
+    .benefit-items .single-benefit .sb-text h6 {
+      color: #252525;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .benefit-items .single-benefit .sb-text p {
+      margin-bottom: 0;
+      color: #252525;
+      line-height: 20px; }
